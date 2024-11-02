@@ -717,6 +717,10 @@ h5 {
   color: var(--main-text-color);
 }
 
+#skills {
+  margin-top: 40px; /* Adjust this value as needed for spacing */
+}
+
 /* General Styling */
 #skills {
   text-align: center;
