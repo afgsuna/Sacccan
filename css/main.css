@@ -717,4 +717,92 @@ h5 {
   color: var(--main-text-color);
 }
 
+/* General Styling */
+#skills {
+  text-align: center;
+  padding: 40px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2 {
+  color: #333;
+  font-weight: 600;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.skills-group {
+  margin-bottom: 40px;
+}
+
+.skills-group h3 {
+  color: #444;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+/* Grid Styling */
+.skills-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-icon i {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.skill-icon:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific Monochrome Colors for Each Group */
+.data {
+  background-color: #e8e8e8;
+}
+
+.ai {
+  background-color: #e0e0e0;
+}
+
+.viz {
+  background-color: #d8d8d8;
+}
+
+.software {
+  background-color: #d0d0d0;
+}
+
+.service-icon {
+  font-size: 50px; /* Adjust size as needed */
+  color: #333; /* Choose a color that fits your design */
+  margin-bottom: 15px; /* Space between icon and title */
+}
+.service-card h3 {
+  margin-top: 0;
+}
+
+
 
