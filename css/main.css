@@ -717,6 +717,7 @@ h5 {
   color: var(--main-text-color);
 }
 
+
 #skills {
   margin-top: 40px; /* Adjust this value as needed for spacing */
 }
@@ -725,13 +726,12 @@ h5 {
 #skills {
   text-align: center;
   padding: 40px;
-  background-color: #f2f2f2;
+  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 #skills h2 {
-  color: #333;
+  color: #000;
   font-weight: 600;
   font-size: 2em;
   margin-bottom: 30px;
@@ -742,7 +742,7 @@ h5 {
 }
 
 .skills-group h3 {
-  color: #444;
+  color: #000;
   font-size: 1.5em;
   margin-bottom: 20px;
 }
@@ -763,13 +763,12 @@ h5 {
   width: 100px;
   height: 100px;
   background-color: #fff;
-  color: #333;
+  color: #000;
   font-size: 14px;
   padding: 10px;
   border-radius: 8px;
-  border: 1px solid #ddd;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #000;
+  transition: transform 0.3s ease;
 }
 
 .skill-icon i {
@@ -779,8 +778,9 @@ h5 {
 
 .skill-icon:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
+
+
 
 /* Specific Monochrome Colors for Each Group */
 .data {
